@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cosmic Visions: Space Art Museum</title>
+    <title>Nebula Sounds Record Label</title>
 
     <style>
         body {
@@ -19,36 +19,34 @@
         }
 
         header h1 {
-            font-size: 40px;
+            font-size: 42px;
             margin-bottom: 10px;
         }
 
         header p {
-            font-size: 16px;
             opacity: 0.8;
         }
 
-        .gallery {
+        .container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 20px;
             padding: 30px;
         }
 
-        .art-piece {
+        .song {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
             padding: 15px;
-            text-align: center;
-            transition: transform 0.3s ease;
             box-shadow: 0 0 15px rgba(0, 150, 255, 0.2);
+            transition: transform 0.3s ease;
         }
 
-        .art-piece:hover {
-            transform: scale(1.05);
+        .song:hover {
+            transform: scale(1.03);
         }
 
-        .art-piece img {
+        .song img {
             width: 100%;
             border-radius: 10px;
             margin-bottom: 10px;
@@ -57,25 +55,31 @@
         .title {
             font-size: 18px;
             font-weight: bold;
-            margin: 10px 0 5px;
+            margin-bottom: 5px;
         }
 
         .desc {
-            font-size: 14px;
+            font-size: 13px;
             opacity: 0.85;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
 
         .tool {
             font-size: 12px;
             opacity: 0.6;
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #4da6ff;
+            text-decoration: none;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            opacity: 0.6;
             font-size: 12px;
+            opacity: 0.6;
         }
     </style>
 </head>
@@ -83,86 +87,106 @@
 <body>
 
 <header>
-    <h1>Cosmic Visions</h1>
-    <p>A Space Art Museum Created with Generative AI</p>
+    <h1>Nebula Sounds</h1>
+    <p>An AI-Generated Space Music Record Label</p>
 </header>
 
-<div class="gallery">
+<div class="container">
 
-    <div class="art-piece">
-        <img src="xyra_prime.jpg">
-        <div class="title">Xyra Prime</div>
-        <div class="desc">A vast alien landscape with glowing plants and distant planets in the sky.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 1 -->
+    <div class="song">
+        <img src="Luminous_Drift.jpeg">
+        <div class="title">Luminous Drift</div>
+        <div class="desc">Slow-blooming hybrid of hazy hip hop and post-rock with soft synth pads and atmospheric textures.</div>
+        <div class="tool">Generated using Suno AI</div>
+        <a href="https://suno.com/s/ubmbthiD60MVrPMj" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="zenthari_empire.jpg">
-        <div class="title">The Zenthari Empire</div>
-        <div class="desc">A highly advanced alien civilization with futuristic structures and technology.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 2 -->
+    <div class="song">
+        <img src="Drift Between Stars.jpeg">
+        <div class="title">Drift Between Stars</div>
+        <div class="desc">Ethereal hip hop-rock track with distant drums, soft pads, and a floating atmospheric feel.</div>
+        <div class="tool">Generated using Suno AI</div>
+        <a href="https://suno.com/s/DDVkeZXIeRPCSi8m" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="rover_x_mission.jpg">
-        <div class="title">Rover-X Mission</div>
-        <div class="desc">A robotic explorer traveling across an unknown planet in deep space.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 3 -->
+    <div class="song">
+        <img src="Alone Between The Suns.jpeg">
+        <div class="title">Alone Between the Suns</div>
+        <div class="desc">A soft cinematic ballad with emotional vocals, piano, and a gentle atmospheric build.</div>
+        <div class="tool">Generated using Suno AI</div>
+        <a href="https://suno.com/s/GyySEKH18PDgnecr" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="cosmic_radiance.jpg">
-        <div class="title">Cosmic Radiance</div>
-        <div class="desc">A colorful galaxy filled with stars, gas clouds, and cosmic light.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 4 -->
+    <div class="song">
+        <img src="Supernova Ignition.jpeg">
+        <div class="title">Supernova Ignition</div>
+        <div class="desc">A high-energy electronic track inspired by a star explosion with intense and dramatic sound.</div>
+        <div class="tool">Generated using ElevenLabs AI</div>
+        <a href="https://elevenlabs.io/music/songs/NFXMm1MFKjTNvYODTh4j" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="night_visitor.jpg">
-        <div class="title">The Night Visitor</div>
-        <div class="desc">A mysterious UFO sighting above Earth in the night sky.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 5 -->
+    <div class="song">
+        <img src="Starlight Journey.jpg">
+        <div class="title">Starlight Journey</div>
+        <div class="desc">A dreamy and uplifting track about traveling through space with cinematic emotion.</div>
+        <div class="tool">Generated using ElevenLabs AI</div>
+        <a href="https://elevenlabs.io/music/songs/OCNNVuvvU0z1ZRwnwQ1L" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="nova_city_3000.jpg">
-        <div class="title">Nova City 3000</div>
-        <div class="desc">A futuristic city built in space with advanced technology and architecture.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 6 -->
+    <div class="song">
+        <img src="Supernova Engine.jpeg">
+        <div class="title">Supernova Engine</div>
+        <div class="desc">A cinematic EDM-rock track with powerful drops, aggressive drums, and dramatic energy.</div>
+        <div class="tool">Generated using FreeMusic AI</div>
+        <a href="https://www.freemusic.ai/ai-music-generator?shareid=58Np5ZeYGv" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="event_horizon.jpg">
-        <div class="title">Event Horizon</div>
-        <div class="desc">A powerful black hole bending space, light, and reality itself.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 7 -->
+    <div class="song">
+        <img src="Silent Tides of the Moon.jpeg">
+        <div class="title">Silent Tides of the Moon</div>
+        <div class="desc">A calm ambient track with soft echoes and slow atmospheric movement inspired by the moon.</div>
+        <div class="tool">Generated using FreeMusic AI</div>
+        <a href="https://www.freemusic.ai/ai-music-generator?shareid=cUaU4uQeQe" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="oceanus_x.jpg">
-        <div class="title">Oceanus-X</div>
-        <div class="desc">An alien ocean world filled with glowing water and strange sea life.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 8 -->
+    <div class="song">
+        <img src="Gravity Drift.jpeg">
+        <div class="title">Gravity Drift</div>
+        <div class="desc">A smooth electronic track inspired by gravity waves with flowing rhythms and soft synths.</div>
+        <div class="tool">Generated using FreeMusic AI</div>
+        <a href="https://www.freemusic.ai/ai-music-generator?shareid=o36eTkbTGC" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="orbital_haven.jpg">
-        <div class="title">Orbital Haven</div>
-        <div class="desc">A futuristic space station orbiting Earth.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 9 -->
+    <div class="song">
+        <img src="Cold Orbit.jpeg">
+        <div class="title">Cold Orbit</div>
+        <div class="desc">A dark ambient soundscape with eerie tones and slow evolving textures.</div>
+        <div class="tool">Generated using FreeMusic AI</div>
+        <a href="https://www.freemusic.ai/ai-music-generator?shareid=2MFPHpPJXj" target="_blank">Listen Here</a>
     </div>
 
-    <div class="art-piece">
-        <img src="celestial_impact.jpg">
-        <div class="title">Celestial Impact</div>
-        <div class="desc">A meteor shower lighting up the sky over a distant planet.</div>
-        <div class="tool">Generated using Perchance AI</div>
+    <!-- Song 10 -->
+    <div class="song">
+        <img src="Falling Sky Engines.jpeg">
+        <div class="title">Falling Sky Engines</div>
+        <div class="desc">A dramatic cinematic track with orchestral elements and powerful space-inspired energy.</div>
+        <div class="tool">Generated using FreeMusic AI</div>
+        <a href="https://www.freemusic.ai/ai-music-generator?shareid=Lag7VnxYiK" target="_blank">Listen Here</a>
     </div>
 
 </div>
 
 <footer>
-    Cosmic Visions © 2026 | Created with Generative AI
+    Nebula Sounds © 2026 | AI Music Record Label
 </footer>
 
 </body>
